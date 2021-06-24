@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 2 ON MAKING A REGISTRATION FORM</title>
+    <style>
+        body{
+            background-color: #f2f6ff;
+            margin: 0;
+            padding: 16px;
+        }
+        .image{
+            width: 50px;
+            height: 50px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+
+        form{
+            background-color: white;
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        #register-form-heading{
+            font-size: 32px;
+            padding-top: 56px;
+            padding-bottom: 32px;
+            text-align: center;
+        }
+
+        #google-icon{
+            background-color: #f2f6ff;
+            padding: 24px;
+            padding-top: 10px;
+        }
+        .doc{
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border: 0;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+        }
+
+        #input-wrapper{
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+
+        #submit{
+            background-color: #0056ff;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            font-size: 18px;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    
+<h3 id = "register-form-heading">Registration Form</h3>
+<form>
+<div id="google-icons"></div>
+<img class = "image" src = "https://yt3.ggpht.com/ytc/AAUvwnj9PvCgb44_6oy39dZfFvVXYzN0_LvKhbUu9ggRCOE=s900-c-k-c0x00ffffff-no-rj">
+<img class = "image" src = "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg">
+<img class = "image" src = "https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png">
+<img class = "image" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png">
+</div>
+<div id = "input-wrapper">
+<div>
+<input class = "doc" type="text" name="Full Name" placeholder = "Full Name">
+</div>
+<div>
+<input class = "doc" type="email" name="email" placeholder="email">
+</div>
+<div>
+<input class = "doc" type = "password" name = "" placeholder = "password">
+</div>
+<div>
+<input class = "doc" type="password" name = "confirm-password" placeholder = "confirm-password">
+</div>
+<input id = "submit" type="submit" value ="Register" onclick="myfunction()">
+</div>
+</form>
+<script>
+    function myfunction() {
+        alert("Form Submitted");
+    }
+</script>
+</body>
+</html>
+
